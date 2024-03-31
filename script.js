@@ -17,7 +17,7 @@ function letterCombinations(input_digit) {
 
     // Helper function to generate combinations recursively
     function generateCombination(index, currentCombination) {
-        // If we have processed all the digits, add the current combination to the result
+// If we have processed all the digits, add the current combination to the result
         if (index === input_digit.length) {
             combinations.push(currentCombination);
             return;
